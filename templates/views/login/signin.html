@@ -16,18 +16,12 @@
                     <form class="form form-center" method="post" action="/signin" id="formLogin">
                         <!-- <input class="form-control" type="text" name="name" placeholder="Nombre"><br> -->
                         <input class="form-control" type="email" name="email" tabindex="1" placeholder="Correo electrónico"><br>
-                        <input class="form-control" type="password" id="password" name="password" required autocomplete="on" tabindex="2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,20}" title="El campo contraseña debe contener un mínimo 
-                        de 8 caracteres, un máximo de 20, letras, (minúsculas y MAYÚSCULAS) y Números " placeholder="Contraseña" size="30">
+                        <input class="form-control" type="password" id="password" name="password" required autocomplete="on" tabindex="2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,20}" title="La contraseña debe contener un valor mínimo de 8 caracteres, una MAYUSCULA , un numero y un carácter especial
+                        " placeholder="Contraseña" size="30">
                         <p class="card-text mt-3 text-center">
                             <button type="submit" class="btn btn-outline-danger" tabindex="3" style="width: 100%;">Ingresar</button>
                         </p>
                     </form>
-                    <p class="card-text mt-3 text-center" >
-                        <small>or login with</small> <br>
-                        <button type="button" class="btn btn-block btn-outline-primary" id="googleSignIn">
-                            <i class="fa fa-google"></i> Iniciar sesion con google
-                        </button>
-                    </p>
                     <div role="alert" id="alerta">
                        
                     </div>
