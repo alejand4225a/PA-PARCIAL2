@@ -3,10 +3,10 @@ from email.message import EmailMessage
 from config import settings
 message = EmailMessage()
 
-message ['Subject'] = 'Este es el asunto'
-message['From'] = 'andresrodriguez2020@itp.edu.co'
-message['To'] = 'andrescamilocr482@gmail.com'
-message.set_content('Este es un email de pruebas')
+message ['Subject'] = 'prueba para enviar email'
+message['From'] = 'fefrwgregerg'
+message['To'] = 'luismoraj641@gmail.com'
+message.set_content('prueba')
 
 username = settings.SMTP_USERNAME
 password = settings.SMTP_PASSWORD

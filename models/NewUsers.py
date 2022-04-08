@@ -1,5 +1,5 @@
 from config.database import db
-from flask import redirect
+from flask import redirect, flash, render_template
 cursor = db.cursor()
 
 def createuser(name,email,password):

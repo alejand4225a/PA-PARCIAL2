@@ -4,7 +4,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from models import productsModel
 from models import NewUsers
 from models import signinuser
-
 app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
